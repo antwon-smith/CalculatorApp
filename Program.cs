@@ -38,7 +38,7 @@ namespace CalculatorApp
                 Environment.Exit(-1);
             }
 
-            Console.WriteLine("Choose an operation.\nTo add, type 'A'\nTo subtract, type 'S'\nTo multiply, type 'M'\nTo divide, type 'D'");
+            Console.WriteLine("Choose an operation.\nTo add, type 'A'\nTo subtract, type 'S'\nTo multiply, type 'M'\nTo divide, type 'D'\nNOTE: Choosing an invalid option will cause the program to terminate.");
             string operation = Console.ReadLine();
 
             if (operation == "A" || operation == "a")
