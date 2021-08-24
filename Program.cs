@@ -62,7 +62,6 @@ namespace CalculatorApp
             else if (operation == "D" || operation == "d")
             {
                 double result = (Convert.ToDouble(firstNumberInput) / Convert.ToDouble(secondNumberInput));
-                // int remainder = (Convert.ToInt32(firstNumberInput) % Convert.ToInt32(secondNumberInput));
                 Console.WriteLine($"You chose to divide the two numbers.\nResult: {result}");
             }
 
