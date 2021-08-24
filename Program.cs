@@ -67,7 +67,7 @@ namespace CalculatorApp
 
             else
             {
-                Console.WriteLine("You did not choose a valid option. The program will now close.");
+                Console.WriteLine("Sorry, you did not choose a valid option. The program will now close.");
                 Environment.Exit(-1);
             }
         }
