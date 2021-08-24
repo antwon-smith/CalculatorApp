@@ -9,6 +9,8 @@ namespace CalculatorApp
             Console.WriteLine("Enter your first number");
             string firstNumberInput = Console.ReadLine();
 
+            // Check to see if the user input can be converted to an integer. If not write a message and close program.
+
             try
             {
                 int firstNumber = int.Parse(firstNumberInput);
@@ -22,6 +24,8 @@ namespace CalculatorApp
 
             Console.WriteLine("Enter your second number");
             string secondNumberInput = Console.ReadLine();
+
+            // Check to see if the second user input can be converted to an integer. If not, write a message and close program.
 
             try
             {
